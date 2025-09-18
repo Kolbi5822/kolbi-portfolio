@@ -11,13 +11,14 @@ export const AboutSection = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <h3 className="text-2xl font-semibold">
-              Passionate Coder & Tech Enthusiast
+              Passionate Coder & Problem Solver
             </h3>
 
             <p className="text-muted-foreground">
               With over 8 years of experience coding in some shape or form, I
-              enjoy the problem solving process and learn quick. I also enjoy
-              looking into new technologies.
+              enjoy the problem solving process and can learn quick. I find the
+              process of coding to be a joy and am always open to new
+              technologies.
             </p>
 
             <p className="text-muted-foreground">
@@ -27,9 +28,6 @@ export const AboutSection = () => {
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
-              <a href="#contact" className="cosmic-button">
-                Get In Touch!
-              </a>
 
               <a
                 href=""
@@ -49,8 +47,10 @@ export const AboutSection = () => {
                   <Code className="h-6 w-6 text-primary" />
                 </div>
                 <div className="text-left">
-                    <h4 className="font-semibold text-lg">Coding Languages</h4>
-                    <p className="text-muted-foreground">Lua, Java, C, Python, html, css, Javascript</p>
+                  <h4 className="font-semibold text-lg">Coding Languages</h4>
+                  <p className="text-muted-foreground">
+                    Lua, Java, C, Python, html, css, Javascript
+                  </p>
                 </div>
               </div>
             </div>
@@ -60,8 +60,14 @@ export const AboutSection = () => {
                   <Gamepad2 className="h-6 w-6 text-primary" />
                 </div>
                 <div className="text-left">
-                    <h4 className="font-semibold text-lg">Videogame Development</h4>
-                    <p className="text-muted-foreground">A majority of my personal coding experience has been through videogame development in Lua/Luau on the Roblox game platform</p>
+                  <h4 className="font-semibold text-lg">
+                    Videogame Development
+                  </h4>
+                  <p className="text-muted-foreground">
+                    A majority of my personal coding experience has been through
+                    videogame development in Lua/Luau on the Roblox game
+                    platform
+                  </p>
                 </div>
               </div>
             </div>
@@ -71,8 +77,10 @@ export const AboutSection = () => {
                   <Briefcase className="h-6 w-6 text-primary" />
                 </div>
                 <div className="text-left">
-                    <h4 className="font-semibold text-lg">Something Else</h4>
-                    <p className="text-muted-foreground">Some other skill or something</p>
+                  <h4 className="font-semibold text-lg">Something Else</h4>
+                  <p className="text-muted-foreground">
+                    Some other skill or something
+                  </p>
                 </div>
               </div>
             </div>
