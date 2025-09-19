@@ -37,7 +37,8 @@ export const HomeSection = () => {
               James Madison University
             </a>{" "}
             who loves to code. I work on all sorts of things from video games to
-            front-end projects using a plethora of languages like Lua, Java, C, and Python among others. I'm currently looking for an internship
+            front-end projects using a plethora of languages like Lua, Java, C,
+            and Python among others. I'm currently looking for an internship
             opportunity and would be happy to hear from you if you're intrested!
           </p>
 
@@ -47,21 +48,21 @@ export const HomeSection = () => {
                 <a
                   href="https://www.linkedin.com/in/kolbi-lee-b1a679265/"
                   target="_blank"
-                  className="p-3 rounded-full bg-primary/10 hover:text-primary transition-colors duration-200"
+                  className="p-3 rounded-full bg-primary/10 border hover:text-primary hover:border-primary transition-colors duration-200"
                 >
                   <Linkedin />
                 </a>
                 <a
                   href="https://github.com/Kolbi5822"
                   target="_blank"
-                  className="p-3 rounded-full bg-primary/10 hover:text-primary transition-colors duration-200"
+                  className="p-3 rounded-full bg-primary/10 border hover:text-primary hover:border-primary transition-colors duration-200"
                 >
                   <Github />
                 </a>
                 <a
                   href="mailto:kolbi5822@gmail.com"
                   target="_blank"
-                  className="p-3 rounded-full bg-primary/10 hover:text-primary transition-colors duration-200"
+                  className="p-3 rounded-full bg-primary/10 border hover:text-primary hover:border-primary transition-colors duration-200"
                 >
                   <Mail />
                 </a>
